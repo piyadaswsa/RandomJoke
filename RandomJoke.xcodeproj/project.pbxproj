@@ -14,6 +14,8 @@
 		D0A0793522FC00E80060EC34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A0793322FC00E80060EC34 /* LaunchScreen.storyboard */; };
 		D0A0794022FC00E80060EC34 /* RandomJokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A0793F22FC00E80060EC34 /* RandomJokeTests.swift */; };
 		D0A0794B22FC00E80060EC34 /* RandomJokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A0794A22FC00E80060EC34 /* RandomJokeUITests.swift */; };
+		D0A0795922FC12E00060EC34 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A0795822FC12E00060EC34 /* APIManager.swift */; };
+		D0A0795B22FC25230060EC34 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A0795A22FC25230060EC34 /* Joke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D0A0794622FC00E80060EC34 /* RandomJokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomJokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A0794A22FC00E80060EC34 /* RandomJokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomJokeUITests.swift; sourceTree = "<group>"; };
 		D0A0794C22FC00E80060EC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0A0795822FC12E00060EC34 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		D0A0795A22FC25230060EC34 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				D0A0793122FC00E80060EC34 /* Assets.xcassets */,
 				D0A0793322FC00E80060EC34 /* LaunchScreen.storyboard */,
 				D0A0793622FC00E80060EC34 /* Info.plist */,
+				D0A0795822FC12E00060EC34 /* APIManager.swift */,
+				D0A0795A22FC25230060EC34 /* Joke.swift */,
 			);
 			path = RandomJoke;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A0795922FC12E00060EC34 /* APIManager.swift in Sources */,
 				D0A0792D22FC00E80060EC34 /* ViewController.swift in Sources */,
+				D0A0795B22FC25230060EC34 /* Joke.swift in Sources */,
 				D0A0792B22FC00E80060EC34 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
