@@ -8,8 +8,9 @@
 
 import Foundation
 
-struct Joke {
+struct Joke { //Codeable
     let id: String
     let value: String
-    let URL: String
+    let iconURL: String
+    let url: String
 }

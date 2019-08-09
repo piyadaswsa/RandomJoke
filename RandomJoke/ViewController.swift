@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonTapped() {
-        
+        APIManager().getRandomJokeAlamofire()
     }
 
 }
