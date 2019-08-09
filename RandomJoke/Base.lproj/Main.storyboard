@@ -18,31 +18,92 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t7X-pt-KXp">
-                                <rect key="frame" x="178" y="135" width="58" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="buttonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="NOo-Iy-XFY"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vgz-uC-596">
-                                <rect key="frame" x="50" y="64" width="314" height="21"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mY4-to-OkA">
+                                <rect key="frame" x="130.5" y="175.5" width="253.5" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pdf-Ji-FsL">
+                                <rect key="frame" x="179.5" y="225.5" width="204.5" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="your name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKK-Rz-nZu">
+                                <rect key="frame" x="30" y="175.5" width="80.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="your lover's name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQt-RG-6Xa">
+                                <rect key="frame" x="30" y="225.5" width="134.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Love Calculate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p9G-yr-4rH">
+                                <rect key="frame" x="50" y="94" width="314" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vgz-uC-596">
+                                <rect key="frame" x="30" y="275.5" width="354" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tab-ht-gs5">
+                                <rect key="frame" x="30" y="295.5" width="354" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t7X-pt-KXp">
+                                <rect key="frame" x="166" y="315.5" width="82" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Calculate"/>
+                                <connections>
+                                    <action selector="buttonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="NOo-Iy-XFY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Vgz-uC-596" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="5wG-Jg-m1p"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vgz-uC-596" secondAttribute="trailing" constant="50" id="ANU-9B-oCs"/>
-                            <constraint firstItem="t7X-pt-KXp" firstAttribute="top" secondItem="Vgz-uC-596" secondAttribute="bottom" constant="50" id="S9X-fK-JqP"/>
-                            <constraint firstItem="Vgz-uC-596" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="oL8-lc-4ll"/>
+                            <constraint firstItem="pdf-Ji-FsL" firstAttribute="top" secondItem="mY4-to-OkA" secondAttribute="bottom" constant="20" id="0ow-Du-brY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pdf-Ji-FsL" secondAttribute="trailing" constant="30" id="3WT-Mi-31T"/>
+                            <constraint firstItem="Vgz-uC-596" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7SS-kl-pRL"/>
+                            <constraint firstItem="p9G-yr-4rH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="CSO-ob-XRk"/>
+                            <constraint firstItem="eQt-RG-6Xa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Fvc-u8-5hi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tab-ht-gs5" secondAttribute="trailing" constant="30" id="Krx-u8-4jS"/>
+                            <constraint firstItem="Tab-ht-gs5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PzW-sI-P1f"/>
+                            <constraint firstItem="mY4-to-OkA" firstAttribute="leading" secondItem="bKK-Rz-nZu" secondAttribute="trailing" constant="20" id="Qbg-U5-vfa"/>
+                            <constraint firstItem="mY4-to-OkA" firstAttribute="top" secondItem="p9G-yr-4rH" secondAttribute="bottom" constant="50" id="QtL-NO-QtB"/>
+                            <constraint firstItem="Vgz-uC-596" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Rq9-lg-5UW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mY4-to-OkA" secondAttribute="trailing" constant="30" id="Yfh-yE-if0"/>
+                            <constraint firstItem="pdf-Ji-FsL" firstAttribute="leading" secondItem="eQt-RG-6Xa" secondAttribute="trailing" constant="15" id="YmX-ug-uNH"/>
+                            <constraint firstItem="p9G-yr-4rH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="ZxX-lu-ddu"/>
+                            <constraint firstItem="Vgz-uC-596" firstAttribute="top" secondItem="pdf-Ji-FsL" secondAttribute="bottom" constant="20" id="bZE-XV-OxC"/>
+                            <constraint firstItem="t7X-pt-KXp" firstAttribute="top" secondItem="Tab-ht-gs5" secondAttribute="bottom" constant="20" id="cZq-N7-mbG"/>
+                            <constraint firstItem="Tab-ht-gs5" firstAttribute="top" secondItem="Vgz-uC-596" secondAttribute="bottom" constant="20" id="etT-dq-KZC"/>
+                            <constraint firstItem="bKK-Rz-nZu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="gMS-hM-Y1h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vgz-uC-596" secondAttribute="trailing" constant="30" id="n1h-W0-Q5h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p9G-yr-4rH" secondAttribute="trailing" constant="50" id="q4W-Ys-c2J"/>
+                            <constraint firstItem="eQt-RG-6Xa" firstAttribute="top" secondItem="mY4-to-OkA" secondAttribute="bottom" constant="20" id="qYJ-oF-eNk"/>
                             <constraint firstItem="t7X-pt-KXp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s7i-5S-7lm"/>
+                            <constraint firstItem="bKK-Rz-nZu" firstAttribute="top" secondItem="p9G-yr-4rH" secondAttribute="bottom" constant="50" id="syy-ww-rKo"/>
+                            <constraint firstItem="p9G-yr-4rH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wyB-Z5-FzO"/>
+                            <constraint firstItem="Tab-ht-gs5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="y2d-Mo-4ku"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="fnameTextField" destination="mY4-to-OkA" id="eel-Qk-JoU"/>
+                        <outlet property="percentLabel" destination="Vgz-uC-596" id="GNh-yn-YFj"/>
+                        <outlet property="resultLabel" destination="Tab-ht-gs5" id="kxx-dQ-fEo"/>
+                        <outlet property="snameTextFeild" destination="pdf-Ji-FsL" id="MaV-3q-QUP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
